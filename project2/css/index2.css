@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(75deg,red,purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#outerline{
+    width: 70%;
+    height: 70%;
+    background-image: linear-gradient(75deg,pink,yellow);
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#innerline{
+    width: 50%;
+    height: 70%;
+    background-color:black;
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px black;
+}
+#heading{
+    position: absolute;
+    top: 15px;
+    right: 180px;
+    letter-spacing: 5px;
+    color: coral;
+    font-size: 40px;
+}
+#email1,#pass1{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    color:gold;
+}
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 25px;
+    position: relative;
+}
+.borderdiv{
+    width:50%;
+    height: 10%;
+    background-color: lemonchiffon;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reuslt{
+    color: red;
+    font-size: 20px;
+}
+#button{
+    width: 40%;
+    height:10%;
+    font-size: 25px;
+    background-color: yellow;
+    border-radius: 100px;
+    color: hotpink;
+    letter-spacing: 5px;
+    border-color: black;
+    font-weight: bold;
+}
+#button:hover{
+    background-color:purple;
+    transform: scale(1.2);
+    transition:all 0.2s;
+}
+#passvisble{
+    width: 30px;
+    position: absolute;
+    right: 15px;
+    border-radius: 100%;
+    border: 2px solid royalblue;
+
+}
